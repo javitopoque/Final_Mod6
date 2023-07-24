@@ -1,0 +1,146 @@
+{
+  "activos": [
+    {
+      "nombre": "mesa",
+      "tipo": "mueble",
+      "descripcion": "mesa de 2x3x1",
+      "color": "marron",
+      "costo": 111,
+      "id": 1
+    },
+    {
+      "nombre": "silla",
+      "tipo": "cocina",
+      "descripcion": "silla de mesa",
+      "color": "beige",
+      "costo": 100,
+      "id": 2
+    },
+    {
+      "nombre": "velador",
+      "tipo": "sillon",
+      "descripcion": "velador pequeño de dos gabinetes",
+      "color": "marron",
+      "costo": 120,
+      "id": 3
+    },
+    {
+      "nombre": "ropero",
+      "tipo": "dormitorio",
+      "descripcion": "ropero de dos cuerpos",
+      "color": "beige",
+      "costo": 890,
+      "id": 4
+    },
+    {
+      "nombre": "mesa",
+      "tipo": "comedor",
+      "descripcion": "mesa de 2x3x2",
+      "color": "marron",
+      "costo": 250,
+      "id": 5
+    },
+    {
+      "nombre": "silla",
+      "tipo": "oficina",
+      "descripcion": "silla con ruedas",
+      "color": "negro",
+      "costo": 210,
+      "id": 8
+    }
+  ],
+  "inventarios": [
+    {
+      "id": 1,
+      "nombre": "aceite",
+      "tipomotor": "gasolina",
+      "viscocidad": "10/20",
+      "marca": "YPFB",
+      "volumen": "5 litros",
+      "costo": 300
+    },
+    {
+      "id": 2,
+      "nombre": "aceite",
+      "tipomotor": "gasolina",
+      "viscocidad": "15/20",
+      "marca": "YPFB",
+      "volumen": "5 litros",
+      "costo": 32500
+    },
+    {
+      "id": 3,
+      "nombre": "aceite",
+      "tipomotor": "diesel",
+      "viscocidad": "20/40",
+      "marca": "Castrol",
+      "volumen": "4 litros",
+      "costo": 200
+    },
+    {
+      "id": 4,
+      "nombre": "aceite",
+      "tipomotor": "diesel",
+      "viscocidad": "15/40",
+      "marca": "YPFB",
+      "volumen": "8 litros",
+      "costo": 400
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nombres": "Juan",
+      "apellidos": "Perez",
+      "cionit": "5493424001",
+      "movilidad": "auto",
+      "marca": "zuzuki",
+      "motor": "gasolina",
+      "rolesId": 3
+    },
+    {
+      "id": 2,
+      "nombres": "Pedro",
+      "apellidos": "Lopez",
+      "cionit": "1234567",
+      "movilidad": "vagoneta",
+      "marca": "jeep",
+      "motor": "gasolina",
+      "rolesId": 1
+    },
+    {
+      "id": 3,
+      "nombres": "Juan",
+      "apellidos": "Perez",
+      "cionit": "5493424001",
+      "movilidad": "micro",
+      "marca": "nissan",
+      "motor": "diesel",
+      "rolesId": 3
+    },
+    {
+      "id": 4,
+      "nombres": "Jose",
+      "apellidos": "Calle",
+      "cionit": "987456321",
+      "movilidad": "moto",
+      "marca": "honda",
+      "motor": "gasolina",
+      "rolesId": 1
+    }
+  ],
+  "roles": [
+    {
+      "id": 1,
+      "rol": "administrador"
+    },
+    {
+      "id": 2,
+      "rol": "usuario"
+    },
+    {
+      "id": 3,
+      "rol": "superusuario"
+    }
+  ]
+}
